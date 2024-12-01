@@ -1,6 +1,6 @@
 from tkinter import *
 
-window = Tk(sc)
+window = Tk()
 e = Entry(window, width=50, border=10)
 e.pack()
 e.insert(0, "Enter your name: ")

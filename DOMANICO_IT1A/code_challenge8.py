@@ -7,7 +7,8 @@ for i in range(0,10):
     oddNumber = number % 2
     sumOdd += oddNumber
     
-    if sumOdd is not 0:
-		sumOdd += oddNumber
+    print(oddNumber)
+    if sumOdd != 0:
+      sumOdd += oddNumber
         
-print(sumOdd)
+# print(sumOdd)
